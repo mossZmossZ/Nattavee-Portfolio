@@ -4,15 +4,19 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
+  SiGithub,
+  SiTrello,
+  SiTableau,
+  SiVmware,
+  SiProxmox,
+  SiCloudflare,
 } from "react-icons/si";
-
+import { IoLogoDocker } from "react-icons/io5";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+      <IoLogoDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -24,7 +28,22 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTrello />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVmware />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiProxmox />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCloudflare />
       </Col>
     </Row>
   );

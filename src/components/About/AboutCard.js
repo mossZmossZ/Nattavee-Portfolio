@@ -8,33 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Nattavee Narischat </span>
-            from <span className="purple"> Bangkok, Thialand.</span>
+            Hello, Everyone. I'm <span className="purple">Nattavee Narischat </span> from <span className="purple"> Bangkok, Thialand.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I'm currently in my fourth year of <span className="purple">Computer Engineering</span> at 
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            from <span className="purple">King Mongkut's University of Technology North Bangkok</span>
+            , and I'm really interested in <span className="purple">networking, cloud computing, and infrastructure. </span>
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Beyond academia, I pursue these interests through hands-on <span className="purple">initiatives and collaborations. </span>
+            My objective is to use my knowledge and enthusiasm to make a meaningful contribution to creative breakthroughs in these areas.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Teamwork and Collaboration
             </li>
             <li className="about-activity">
-              <ImPointRight /> Development
+              <ImPointRight /> Flexibility
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sleep
+              <ImPointRight /> Curiosity
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Rome not make in one days!"{" "}
+            "Rome not built in a day"{" "}
           </p>
-          <footer className="blockquote-footer">Nattavee</footer>
         </blockquote>
       </Card.Body>
     </Card>
