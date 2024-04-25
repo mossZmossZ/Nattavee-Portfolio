@@ -37,7 +37,7 @@ function Projects() {
               title="T-pak matching dormitory platform"
               description="Web Application for matching dormitory by React JS and Node JS MongoDB."
               ghLink="https://github.com/mossZmossZ/t-pak"
-              //demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://tpak.nattavee.com"
             />
           </Col>
 
@@ -69,6 +69,7 @@ function Projects() {
               title="Equipment borrowing system"
               description="None."
               ghLink="https://github.com/mossZmossZ/Project-Embedded"
+              demoLink="https://project.embed.nattavee.com"
             />
           </Col>
 
