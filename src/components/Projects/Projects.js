@@ -58,7 +58,7 @@ function Projects() {
               title="React Js for Visualize data and Node Js for api JSON data , Python to make a Graph Data."
               description="React Js for Visualize data and Node Js for api JSON data , Python to make a Graph Data."
               ghLink="https://github.com/mossZmossZ/DataVisualizationWebApp"
-              //demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="https://data-visualization.nattavee.com/"
             />
           </Col>
 
