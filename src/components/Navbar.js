@@ -7,8 +7,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-} from "react-icons/ai";
-
+} from "react-icons/ai";  
+import { TiDocumentText } from "react-icons/ti";
+import { RiContactsFill } from "react-icons/ri";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -72,6 +73,34 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <TiDocumentText 
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <RiContactsFill 
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Contacts
+              </Nav.Link>
+            </Nav.Item>
+
+
           </Nav>
         </Navbar.Collapse>
       </Container>
