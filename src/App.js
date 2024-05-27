@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resumes from "./components/Resume/Resumes";
 import Contacts from "./components/Contact/Contacts";
+import HayaDemos from "./components/HAYAdemo/HayaDemo";
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resumes />} />
           <Route path="/contact" element={<Contacts />} />
+          <Route path="/HAYAdemo" element={<HayaDemos />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

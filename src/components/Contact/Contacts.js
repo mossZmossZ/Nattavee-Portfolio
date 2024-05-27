@@ -14,7 +14,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Sent Email to Contact me.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "500px" }}>
+        <Row style={{ justifyContent: "center", paddingTop: "500px" }}>
           
         </Row>
       </Container>
